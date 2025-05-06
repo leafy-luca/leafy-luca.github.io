@@ -1,0 +1,35 @@
+unused code that is still useful if a style change happens
+
+ <!-- <h3>Commands:</h3>
+    <dl>
+        <dt>~shake ou ~coquetelar</dt>
+        <dd>Coquetelar, <img src="RUNES/DRACONIC/shake.png" alt="Coquetelar"></dd>
+        <dt>~mix</dt>
+        <dd>Mix, <img src="RUNES/DRACONIC/mix.png" alt="Mix"></dd>
+        <dt>~top</dt>
+        <dd>Top, <img src="RUNES/DRACONIC/top.png" alt="Top"></dd>
+        <dt>~dash</dt>
+        <dd>Dash, <img src="RUNES/DRACONIC/dashs.png" alt="Dash"></dd>
+        <dt>~splash</dt>
+        <dd>Splash, <img src="RUNES/DRACONIC/splash.png" alt="Splash"></dd>
+        <dt>~strain</dt>
+        <dd>Strain, <img src="RUNES/DRACONIC/strain.png" alt="Strain"></dd>
+        <dt>~ice</dt>
+        <dd>Ice, <img src="RUNES/DRACONIC/ice.png" alt="Ice"></dd>
+        <dt>~fire</dt>
+        <dd>Fire, <img src="RUNES/DRACONIC/fire.png" alt="Fire"></dd>
+        <dt>~foam</dt>
+        <dd>Foam, <img src="RUNES/DRACONIC/foam.png" alt="Foam"></dd>
+        <dt>~dstrain</dt>
+        <dd>Double Strain, <img src="RUNES/DRACONIC/doublestrain.png" alt="Double Strain"></dd>
+        <dt>~macerate ou ~macerar</dt>
+        <dd>Macerate, <img src="RUNES/DRACONIC/macerate.png" alt="Macerate"></dd>
+        <dt>~bspoon</dt>
+        <dd>Bar Spoon, <img src="RUNES/DRACONIC/bar-spoon.png" alt="Bar Spoon"></dd>
+        <dt>~glass</dt>
+        <dd>Glass, <img src="RUNES/DRACONIC/glass.png" alt="Glass"></dd>
+        <dt>~glass-type</dt>
+        <dd>Glass Type, <img src="RUNES/DRACONIC/glass-type.png" alt="Glass Type"></dd>
+        <dt>~glass-desc</dt>
+        <dd>Glass Description, <img src="RUNES/DRACONIC/glass-desc.png" alt="Glass Description"></dd>
+    </dl> -->
