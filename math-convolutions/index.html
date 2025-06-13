@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>COMPUTER-VIS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="main-content">
+    <img id="logo" src="logo.png" alt="COMPUTER-VIS Logo">
+    <h1></h1>
+
+    <input type="file" id="upload" accept="image/*" />
+
+    <div id="container" class="canvas-container">
+      <canvas id="original" width="500" height="500"></canvas>
+      <canvas id="filtered" width="500" height="500"></canvas>
+    </div>
+
+    <div class="controls">
+      <button onclick="applyFilter('meanblur')">Mean Blur</button>
+      <button onclick="applyFilter('sharpen')">Nitidez</button>
+      <button onclick="applyFilter('edge')">Bordas</button>
+      <button onclick="applyFilter('gaussian')">Gaussian Blur</button>
+      <button onclick="applyFilter('emboss')">Emboss</button>
+      <button onclick="resetFilters()">Resetar filtros</button>
+    </div>
+
+    <div class="options">
+      <h3>Opções de edição</h3>
+      <label>
+        <span class="switch">
+          <input type="checkbox" id="stacking" />
+          <span class="slider"></span>
+        </span>
+        Sobreposição de filtros
+      </label>
+      <label>
+        <span class="switch">
+          <input type="checkbox" id="lockBrightness" checked />
+          <span class="slider"></span>
+        </span>
+        Travar brilho
+      </label>
+    </div>
+
+    <div class="custom-filter">
+      <h3>Filtro Personalizado (3x3)</h3>
+      <div id="customFilter">
+        <table>
+          <tbody>
+            <tr>
+              <td><input class="matrix-input" id="m00" value="0" /></td>
+              <td><input class="matrix-input" id="m01" value="0" /></td>
+              <td><input class="matrix-input" id="m02" value="0" /></td>
+            </tr>
+            <tr>
+              <td><input class="matrix-input" id="m10" value="0" /></td>
+              <td><input class="matrix-input" id="m11" value="1" /></td>
+              <td><input class="matrix-input" id="m12" value="0" /></td>
+            </tr>
+            <tr>
+              <td><input class="matrix-input" id="m20" value="0" /></td>
+              <td><input class="matrix-input" id="m21" value="0" /></td>
+              <td><input class="matrix-input" id="m22" value="0" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <button onclick="applyCustomFilter()">Aplicar Filtro Personalizado</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
